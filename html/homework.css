@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*==========================左边的样式=================================*/
+.left {
+    float: left;
+}
+.left li{
+    list-style: none;
+}
+.left li button{
+    width: 90px;
+    height: 40px;
+    background-color: #fff;
+    outline: none;
+    font-size: large;
+    border: none;
+}
+.left li button:hover{
+    background-color: #66ccff;
+}
+.left li button:focus{
+    background-color: orange;
+}
+/*==========================右边的样式==================================*/
+.right{
+   margin-top: 10px;
+}
+.right li {
+    list-style: none;
+}
+.right img{
+    width: 120px;
+    height: 90px;
+}
+.right_content{
+    display: flex;
+    flex-direction: row;
+}
+.content_detail{
+    display: flex;
+    flex-flow: wrap; 
+    flex-direction: column;
+    position: relative;
+    left: 10px; 
+}
+.content_info{
+    display: flex;
+    align-self: start;
+    position: relative;
+    top: 46px;
+}
+.content_info img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    position: relative;
+    left: 10px;
+}
+.content_info span{
+    position: relative;
+    left: 20px;
+}
